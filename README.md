@@ -13,4 +13,5 @@ Published as is to help those that might need this.
 This is not officially supported by Mitsubishi Electric, and is technically against their T&C. Consider this ressource for education purposes only.
 It might also be illegal in some part of the world. Europe SHOULD be ok as reverse engeneering is considered fair-use for interface implemntation, debugging & error correction.
 
-Also, please avoid cloberring the Mitsu json server or they might modify the api to stop this from working.
+Also, please avoid cloberring the Mitsu json server or they might modify the api to stop this from working. 
+Manufacturers really need to give us local apis for home automation & monitoring. Either through an api, or even good old snmp, but please don't force us to rev-eng. protocols, and, even worse, don't force us to go through cloud instances, it's bad for security.
