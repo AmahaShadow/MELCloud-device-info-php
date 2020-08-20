@@ -3,7 +3,7 @@
 // Retrieve device data from MELCloud (Mitsubishi electric A/C Cloud) for export to cacti
 // Note that you must have connected your pump to the cloud. You should be able to query the 
 // device from the cloud before using this.
-// Credit AmahaShadow 2020
+// https://github.com/AmahaShadow
 // based on the work of http://mgeek.fr/blog/un-peu-de-reverse-engineering-sur-melcloud
 // who originally reversed engineer the API (french)
 // this only returns the Actual Temp, Set Temp, Actual Fan Speed, and Energy Consumption
