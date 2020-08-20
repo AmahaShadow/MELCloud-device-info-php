@@ -7,7 +7,7 @@
 // based on the work of http://mgeek.fr/blog/un-peu-de-reverse-engineering-sur-melcloud
 // who originally reversed engineer the API (french)
 // this only returns the Actual Temp, Set Temp, Actual Fan Speed, and Energy Consumption
-// which were what I wanted to monitor, but there are a lot more data available. 
+// which were what I wanted to check, but there are a lot more data available. 
 
 //config
 $mail='email@exemple.com';
@@ -63,7 +63,7 @@ if (!$res['ID'])
 //The following assumes only one device, but the call actually returns everything, so you'll only need to iterate the devices to get the rest
 $dev=$res['Structure']['Devices'][0]['Device'];
 
-//Export for cacti
+//Print the result
 echo "temp:".$dev['RoomTemperature']." reqtemp:".$dev['SetTemperature']." fanspeed:".$dev['ActualFanSpeed']." energy:".$dev['CurrentEnergyConsumed'];
 
 //If this line is uncommented, it will store all call results info into a text file
